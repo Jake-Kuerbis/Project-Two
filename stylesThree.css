@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+canvas {
+  display: block;
+}
+
+#toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#toggle-btn:hover {
+  background: #444;
+}
